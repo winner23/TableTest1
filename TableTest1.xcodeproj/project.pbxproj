@@ -12,6 +12,8 @@
 		91CC7664206917A00045AC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7662206917A00045AC3C /* Main.storyboard */; };
 		91CC7666206917A00045AC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7665206917A00045AC3C /* Assets.xcassets */; };
 		91CC7669206917A00045AC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7667206917A00045AC3C /* LaunchScreen.storyboard */; };
+		91CC76712069304E0045AC3C /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CC76702069304E0045AC3C /* EditViewController.swift */; };
+		91CC7677206933190045AC3C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7676206933190045AC3C /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		91CC7665206917A00045AC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91CC7668206917A00045AC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91CC766A206917A00045AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CC76702069304E0045AC3C /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		91CC7676206933190045AC3C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				91CC765E2069179F0045AC3C /* AppDelegate.swift */,
 				91CC7660206917A00045AC3C /* ViewController.swift */,
+				91CC76702069304E0045AC3C /* EditViewController.swift */,
 				91CC7662206917A00045AC3C /* Main.storyboard */,
 				91CC7665206917A00045AC3C /* Assets.xcassets */,
 				91CC7667206917A00045AC3C /* LaunchScreen.storyboard */,
 				91CC766A206917A00045AC3C /* Info.plist */,
+				91CC7676206933190045AC3C /* AboutViewController.swift */,
 			);
 			path = TableTest1;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				91CC7661206917A00045AC3C /* ViewController.swift in Sources */,
 				91CC765F2069179F0045AC3C /* AppDelegate.swift in Sources */,
+				91CC7677206933190045AC3C /* AboutViewController.swift in Sources */,
+				91CC76712069304E0045AC3C /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
